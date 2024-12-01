@@ -1,3 +1,8 @@
 .main-header {
   padding-top: 105px;
 }
+.subscribe {
+  background-image: url(/img/subscribe.jpg);
+  background-size: cover;
+  background-position: center;
+}

@@ -104,26 +104,28 @@
           </div>
           <!-- form search -->
           <form class="d-flex" role="search">
-            <input
-              class="form-control form-control-sm me-0"
-              type="search"
-              placeholder="Search for.."
-              aria-label="Search"
-            />
-            <button class="btn btn-success btn-sm" type="submit">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16px"
-                height="16px"
-                viewBox="0 0 512 512"
-              >
-                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  fill="#ffffff"
-                  d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
-                />
-              </svg>
-            </button>
+            <div class="input-group">
+              <input
+                class="form-control form-control-sm me-0"
+                type="search"
+                placeholder="Search for.."
+                aria-label="Search"
+              />
+              <button class="btn btn-success btn-sm" type="submit">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                  />
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
@@ -551,7 +553,7 @@
       </div>
     </section>
     <!-- Other Content -->
-    <section class="py-4">
+    <section class="py-4 border-bottom">
       <div class="container mt-4">
         <div class="row d-flex align-items-center gx-md-5">
           <!-- Khối bên trái -->
@@ -610,8 +612,51 @@
       </div>
     </section>
     <!-- Subcribe -->
-    <section>
-      <div class="container"></div>
+    <section class="subscribe py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 mb-2 mb-md-0">
+            <div>
+              <h5 class="text-white text-md-end fw-light fs-4 text-center">
+                Subscribe for newsletters
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <form class="d-flex" role="email">
+              <div class="input-group">
+                <input
+                  class="form-control form-control-sm me-0"
+                  type="email"
+                  placeholder="Your email.."
+                  aria-label="email"
+                />
+                <button
+                  class="btn btn-success btn-sm d-flex align-items-center"
+                  type="submit"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="me-2 bi bi-envelope-check-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"
+                    ></path>
+                    <path
+                      d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"
+                    ></path>
+                  </svg>
+                  Subscibe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- nhúng js bt -->
     <script
