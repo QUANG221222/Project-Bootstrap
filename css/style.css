@@ -6,3 +6,7 @@
   background-size: cover;
   background-position: center;
 }
+.blur-filter {
+  backdrop-filter: blur(8px);
+  background-color: #cccccc4a;
+}
