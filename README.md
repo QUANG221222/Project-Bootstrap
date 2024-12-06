@@ -22,3 +22,13 @@
 ```
   Phật phù hộ, không bao giờ BUG
 ```
+
+_Knowledge_: navbar,
+container/row/col(12 cột),
+input-group(form liền mạch),
+Breadcrumb(Phân cấp trang vd: home > faq),
+list-group, badge,
+modal(hiện form thông bao khi click),
+detail/summary,
+textarea
+card/card-header/card-body/card-footer
