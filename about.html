@@ -45,7 +45,7 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="about.html"
+              <a class="nav-link active" aria-current="page" href="about.html"
                 >About</a
               >
             </li>
@@ -53,9 +53,7 @@
               <a class="nav-link" aria-current="page" href="#">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="faq.html"
-                >FAQ</a
-              >
+              <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Blog</a>
@@ -139,232 +137,140 @@
     <!-- Header -->
     <header class="main-header pb-5 border-bottom">
       <div class="container">
-        <div class="row d-flex align-items-center justify-content-center">
+        <div class="row d-flex align-items-center gx-md-5">
           <!-- Khối bên trái -->
-          <div class="col-md-6 order-1 order-md-0">
-            <div class="breadcrumb-holder small">
-              <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-                <ol
-                  class="breadcrumb d-inline-flex py-1 px-3 rounded-pill border"
-                >
-                  <li class="breadcrumb-item">
-                    <a class="text-decoration-none" href="index.html">Home</a>
-                  </li>
-                  <li class="breadcrumb-item active" aria-current="page">
-                    FAQ
-                  </li>
-                </ol>
-              </nav>
-            </div>
-            <div class="header-content">
-              <h1 class="fs-3 fw-normal">
-                Lorem ipsum dolor sit amet consectetur.
-              </h1>
-              <p class="fs-6 small fw-light text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident quia natus amet! Amet reiciendis alias perspiciatis
-                vel, nostrum officia iste illum fugiat distinctio tenetur
-                molestiae incidunt repellat quisquam ratione vero!
-              </p>
-              <div class="search w-75">
-                <!-- form search -->
-                <form class="d-flex" role="search">
-                  <div class="input-group">
-                    <input
-                      class="form-control form-control-sm me-0"
-                      type="search"
-                      placeholder="Search for.."
-                      aria-label="Search"
-                    />
-                    <button class="btn btn-success btn-sm" type="submit">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16px"
-                        height="16px"
-                        viewBox="0 0 512 512"
-                      >
-                        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                        <path
-                          fill="#ffffff"
-                          d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <h1 class="fs-3 fw-normal">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              alias nulla minus sunt similique
+            </h1>
+            <p class="fs-5 fw-light text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consectetur, debitis mollitia laudantium tenetur, tempora
+              obcaecati provident voluptatum
+            </p>
+            <a
+              href="#!"
+              class="btn btn-success btn-sm d-inline-flex justify-content-center align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512"
+                width="16px"
+                height="16px"
+                class="me-2"
+              >
+                <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  fill="#ffffff"
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
+                />
+              </svg>
+              Sign-up to Get Started
+            </a>
           </div>
           <!-- Khối bên phải -->
-          <div class="col-md">
-            <img
-              class="w-100 rounded-1 mb-3 mb-md-0"
-              src="./img/main-header.jpg"
-              alt="main-header"
-            />
+          <div class="col-md-6 mt-3 mt-md-0">
+            <div>
+              <img
+                class="rounded-2 w-100"
+                src="./img/main-header.jpg"
+                alt="Main header"
+              />
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <!-- FAQ list -->
-    <section class="faq-list py-5">
+    <!-- About Content -->
+    <section class="about-content py-4">
       <div class="container">
-        <div class="row">
-          <!-- list question -->
-          <div class="col-md-8">
-            <!-- Item 1 -->
-            <details class="card text-bg-light mb-3 small">
-              <summary class="card-header">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in
-                  laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
-            <!-- Item 2 -->
-            <details class="card text-bg-light mb-3 small">
-              <summary class="card-header">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in
-                  laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
-            <!-- Item 3 -->
-            <details class="card text-bg-light mb-3 small">
-              <summary class="card-header">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in
-                  laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
-            <!-- Item 4 -->
-            <details class="card text-bg-light mb-3 small">
-              <summary class="card-header">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in
-                  laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
-            <!-- Item 5 -->
-            <details class="card text-bg-light mb-3 small">
-              <summary class="card-header">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in
-                  laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
+        <!-- About Top -->
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-6">
+            <div class="text-center">
+              <h3 class="fs-4 fw-normal">Welcome to Tuhoc.CC</h3>
+              <p class="text-secondary small">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                cum sint nobis accusamus at voluptatibus rerum provident eius.
+                Iusto reiciendis quod blanditiis optio commodi, recusandae nulla
+                aliquam repellendus pariatur! At?
+              </p>
+              <a
+                href="#!"
+                class="btn btn-success btn-sm d-inline-flex align-items-center justify-content-center mb-5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-file-earmark-text me-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"
+                  ></path>
+                  <path
+                    d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
+                  ></path>
+                </svg>
+                Read about our journey
+              </a>
+            </div>
           </div>
-          <!-- post question -->
+        </div>
+        <!-- About Bottom -->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4">
+            <img
+              src="./img/main-header.jpg"
+              alt="About Picture"
+              class="w-100 rounded-1 mb-2 mb-md-0"
+            />
+          </div>
           <div class="col-md">
-            <div class="card">
-              <div class="card-header text-bg-primary">Post your Questions</div>
-              <div class="card-body">
-                <form action="">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="mb-2">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          class="form-control form-control-sm"
-                          placeholder="Name"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="mb-2">
-                        <input
-                          type="email"
-                          name="Email"
-                          id="Email"
-                          class="form-control form-control-sm"
-                          placeholder="Email"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="mb-2">
-                        <input
-                          type="text"
-                          name="question-title"
-                          id="question-title"
-                          class="form-control form-control-sm"
-                          placeholder="Your Question Title"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="mb-2">
-                        <textarea
-                          rows="5"
-                          class="form-control form-control-sm"
-                          name="question-detail"
-                          id="question-detail"
-                          placeholder="Question in detail"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="mb-2">
-                        <button
-                          class="btn btn-success btn-sm d-flex align-items-center w-100 justify-content-center"
-                          type="submit"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            fill="currentColor"
-                            class="bi bi-question-circle-fill me-2"
-                            viewBox="0 0 16 16"
-                          >
-                            <path
-                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"
-                            ></path>
-                          </svg>
-                          Post Question
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-6">
+                <div class="mx-2">
+                  <p class="small text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga, dolorem voluptas alias animi beatae quibusdam ab iusto
+                    minima corrupti dolores, incidunt laborum laboriosam facere
+                    cum, veritatis dolore? Sed, ratione doloribus?
+                  </p>
+                  <p class="small text-secondary">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Maxime, fugit perferendis praesentium tempore officiis
+                    tempora omnis aut magnam aspernatur doloribus architecto
+                    aliquam sequi mollitia pariatur facere. Libero laborum
+                    voluptate repellendus?
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mx-2">
+                  <p class="small text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga, dolorem voluptas alias animi beatae quibusdam ab iusto
+                    minima corrupti dolores, incidunt laborum laboriosam facere
+                    cum, veritatis dolore? Sed, ratione doloribus?
+                  </p>
+                  <p class="small text-secondary">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Maxime, fugit perferendis praesentium tempore officiis
+                    tempora omnis aut magnam aspernatur doloribus architecto
+                    aliquam sequi mollitia pariatur facere. Libero laborum
+                    voluptate repellendus?
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Subcribe -->
+    <!-- Subscribe -->
     <section class="subscribe py-5">
       <div class="container">
         <div class="row justify-content-center align-items-center">
