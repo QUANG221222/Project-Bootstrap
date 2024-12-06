@@ -42,9 +42,7 @@
           <!-- menu item -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="about.html"
@@ -52,7 +50,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="courses.html"
+              <a class="nav-link active" aria-current="page" href="courses.html"
                 >Courses</a
               >
             </li>
@@ -141,7 +139,7 @@
     <!-- Header -->
     <header class="main-header pb-5 border-bottom">
       <div class="container">
-        <div class="row d-flex align-items-center gx-md-5">
+        <div class="row align-items-center gx-md-5">
           <!-- Khối bên trái -->
           <div class="col-md-6">
             <h1 class="fs-3 fw-normal">
@@ -153,25 +151,33 @@
               Consectetur, debitis mollitia laudantium tenetur, tempora
               obcaecati provident voluptatum
             </p>
-            <a
-              href="#!"
-              class="btn btn-success btn-sm d-inline-flex justify-content-center align-items-center"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 512"
-                width="16px"
-                height="16px"
-                class="me-2"
-              >
-                <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  fill="#ffffff"
-                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
-                />
-              </svg>
-              Sign-up to Get Started
-            </a>
+            <!-- form search -->
+            <div class="col-md-10">
+              <form class="d-flex" role="search">
+                <div class="input-group">
+                  <input
+                    class="form-control form-control-sm me-0"
+                    type="search"
+                    placeholder="Search for.."
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-success btn-sm" type="submit">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16px"
+                      height="16px"
+                      viewBox="0 0 512 512"
+                    >
+                      <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path
+                        fill="#ffffff"
+                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
           <!-- Khối bên phải -->
           <div class="col-md-6 mt-3 mt-md-0">
@@ -186,112 +192,9 @@
         </div>
       </div>
     </header>
-    <!-- Features -->
-    <section class="border-bottom">
-      <div class="container">
-        <div class="row p-3">
-          <!-- item 1 -->
-          <div class="col-md-4">
-            <div
-              class="d-flex align-items-center bg-white border rounded-2 p-3 gap-3"
-            >
-              <img
-                width="50px"
-                height="50px"
-                src="./img/clock.png"
-                alt="Clock"
-              />
-              <div>
-                <h3 class="fs-5">Lorem ipsum dolor sit amet</h3>
-                <p class="text-secondary small">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere officiis modi similique nihil
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- item 2 -->
-          <div class="col-md-4">
-            <div
-              class="d-flex align-items-center bg-white border rounded-2 p-3 gap-3 mt-2 mb-2 mt-md-0 mb-md-0"
-            >
-              <img
-                width="50px"
-                height="50px"
-                src="./img/responsive.png"
-                alt="Clock"
-              />
-              <div>
-                <h3 class="fs-5">Lorem ipsum dolor sit amet</h3>
-                <p class="text-secondary small">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere officiis modi similique nihil
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- item 3 -->
-          <div class="col-md-4">
-            <div
-              class="d-flex align-items-center bg-white border rounded-2 p-3 gap-3"
-            >
-              <img
-                width="50px"
-                height="50px"
-                src="./img/tick.png"
-                alt="Clock"
-              />
-              <div>
-                <h3 class="fs-5">Lorem ipsum dolor sit amet</h3>
-                <p class="text-secondary small">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere officiis modi similique nihil
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- Courses -->
     <section class="border-bottom py-4">
       <div class="container">
-        <!-- Row top -->
-        <div class="row justify-content-center">
-          <div class="col-md-5">
-            <div class="text-md-center">
-              <h4 class="fs-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-                dolorem voluptatum. Temporibus amet mollitia
-              </h4>
-              <p class="small text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident commodi quas adipisci quod? Similique, eligendi illum?
-                Eum modi rem dolorem minus nisi dolore ullam!
-              </p>
-              <a
-                href="courses.html"
-                class="btn btn-sm btn-success d-inline-flex align-items-center justify-content-center"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16px"
-                  height="16px"
-                  class="me-2"
-                  viewBox="0 0 640 512"
-                >
-                  <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#ffffff"
-                    d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
-                  />
-                </svg>
-                View all courses
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- Row bottom -->
         <div class="row mt-3">
           <!-- column right -->
           <div class="col-md-3">
@@ -351,7 +254,7 @@
                   >24 Courses Available
                 </span>
               </div>
-              <!-- item 1` -->
+              <!-- item 1 -->
               <a
                 href="./single-course.html"
                 class="list-group-item list-group-item-action"
@@ -362,7 +265,7 @@
                   <div class="col-md-4">
                     <img
                       class="rounded-1 img-fluid"
-                      src="./img/pic1.jpg"
+                      src="./img/main-header.jpg"
                       alt="logo1"
                     />
                   </div>
@@ -413,7 +316,7 @@
                   <div class="col-md-4">
                     <img
                       class="rounded-1 img-fluid"
-                      src="./img/pic2.jpg"
+                      src="./img/pic1.jpg"
                       alt="logo1"
                     />
                   </div>
@@ -464,6 +367,57 @@
                   <div class="col-md-4">
                     <img
                       class="rounded-1 img-fluid"
+                      src="./img/pic2.jpg"
+                      alt="logo1"
+                    />
+                  </div>
+                  <div class="col-md">
+                    <h4 class="fs-5">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </h4>
+                    <p class="small text-secondary">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Consequuntur esse aperiam iusto ut voluptatem fuga,
+                      voluptates distinctio laboriosam error
+                    </p>
+                    <div class="d-flex align-items-center">
+                      <span
+                        class="rounded-pill bg-warning d-inline-flex align-items-center justify-content-center px-2 py-1 small me-2"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 576 512"
+                          width="16px"
+                          height="16px"
+                          class="me-2"
+                        >
+                          <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                          <path
+                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                          />
+                        </svg>
+                        Rating: 4.7
+                      </span>
+                      <span
+                        class="rounded-pill bg-success px-2 py-1 text-white small"
+                      >
+                        Price: Rs.499/-
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- item 4 -->
+              <a
+                href="./single-course.html"
+                class="list-group-item list-group-item-action"
+              >
+                <div
+                  class="row p-2 d-flex align-items-center justify-content-center"
+                >
+                  <div class="col-md-4">
+                    <img
+                      class="rounded-1 img-fluid"
                       src="./img/pic1.jpg"
                       alt="logo1"
                     />
@@ -504,7 +458,7 @@
                   </div>
                 </div>
               </a>
-              <!-- item4 -->
+              <!-- item 5 -->
               <a
                 href="./single-course.html"
                 class="list-group-item list-group-item-action"
@@ -555,65 +509,6 @@
                   </div>
                 </div>
               </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Other Content -->
-    <section class="py-4 border-bottom">
-      <div class="container mt-4">
-        <div class="row d-flex align-items-center gx-md-5">
-          <!-- Khối bên trái -->
-          <div class="col-md-6">
-            <h3 class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              aliquam et impedit iure vitae tenetur adipisci placeat a
-              laudantium fugiat
-            </h3>
-            <p class="small text-secondary">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-              atque quo enim deleniti doloribus distinctio facilis culpa non
-              inventore neque tenetur aliquam dolore, quis, ex modi repellat
-              magnam et eius!
-            </p>
-            <h3 class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </h3>
-            <p class="small text-secondary">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-              atque quo enim deleniti doloribus distinctio facilis culpa non
-              inventore neque tenetur aliquam dolore, quis, ex modi repellat
-              magnam et eius!
-            </p>
-            <a
-              href="#!"
-              class="btn btn-success btn-sm d-inline-flex justify-content-center align-items-center"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                width="16px"
-                height="16px"
-                class="me-2"
-              >
-                <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  fill="#ffffff"
-                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
-                />
-              </svg>
-              Sign-up to get more info
-            </a>
-          </div>
-          <!-- Khối bên phải -->
-          <div class="col-md-6 mt-3 mt-md-0">
-            <div>
-              <img
-                class="rounded-2 w-100"
-                src="./img/main-header.jpg"
-                alt="Main header"
-              />
             </div>
           </div>
         </div>
